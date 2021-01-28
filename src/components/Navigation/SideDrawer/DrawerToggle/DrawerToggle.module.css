@@ -14,6 +14,7 @@
   width: 90%;
   height: 3px;
   background-color: white;
+  margin: 3px 0;
 }
 
 @media (min-width: 500px) {
