@@ -14,9 +14,7 @@ const INGREDEINT_PRICES = {
 }
 
 class BurgerBuilder extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
+    state = {
       ingredients: {
         salad: 0,
         bacon: 0,
@@ -27,8 +25,6 @@ class BurgerBuilder extends Component {
       purchasable: false,
       purchasing: false,
     };
-    
-  }
 
   purchaseHandler = () => {
     this.setState({purchasing: true})
