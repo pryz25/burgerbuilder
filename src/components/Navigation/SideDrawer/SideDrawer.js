@@ -7,7 +7,7 @@ import Backdrop from '../../UI/Backdrop/Backdrop';
 import Aux from '../../../hoc/Aux'
 
 const sideDrawer = (props) => {
-  let attachedClasses = [classes.SideDrawer, classes.Close]
+  let attachedClasses = [classes.SideDrawer, classes.Closed]
   if (props.open) {
     attachedClasses = [classes.SideDrawer, classes.Open]
   }
